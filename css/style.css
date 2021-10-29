@@ -1,0 +1,90 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#fef4e8 ;
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+header h1 {
+    font-size: 3.5rem;
+    color: #505153;
+    line-height: 2;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+
+}
+
+form > * {
+    margin-bottom: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 7px;
+    border: 1px solid #777;
+    border-radius: 3px;
+}
+form textarea {
+    padding: 7px 0 40px 5px ;
+    font-family: inherit;
+
+}
+
+::placeholder {
+    font-size: 1.3rem;
+}
+
+form button {
+    background-color: #ff8c00;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+form button:hover {
+background-color: black;
+}
+
+.notes {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem 0;
+
+}
+.note-counter, .note-text {
+    font-size: 1.4rem;
+
+}
+
+.note-title {
+    font-size: 1.6rem;
+    
+}
+
+.note-btn {
+    padding: 7px;
+    margin-top: 5px;
+    background-color: #505153;
+    outline: none;
+    border-radius: 3px;
+    color : white;
+    cursor: pointer;
+
+}
+ .edit-btn {
+    background-color: #ff8c00;
+    
+}
